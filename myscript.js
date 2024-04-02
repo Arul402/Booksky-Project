@@ -2,22 +2,16 @@ var outlayer=document.querySelector(".bc")
 var innerform=document.querySelector(".bc2")
 var addbook=document.getElementById("btn")
 var res=document.querySelector(".container")
-
 addbook.addEventListener("click",function(){
     outlayer.style.display="block"
     innerform.style.display="block"
 })
-
-
-
 // Access the values from form
 var title=document.getElementById("book-title")
 var authname=document.getElementById("auth-name")
 var des=document.getElementById("desc")
-
 var add1=document.getElementById("ad1")
 var close=document.getElementById("clo1")
-
 // To Stop the Form to Sumbit and refresh
 add1.addEventListener("click",function(event){
     event.preventDefault()
